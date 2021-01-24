@@ -10,10 +10,8 @@ def using_pop (array)
   array.pop 
 end
 
-def pop_with_args (dog_breeds, small_dogs)
-  small_dogs = dog_breeds.pop(2) 
-  puts small_dogs
-  
+def pop_with_args (dog_breeds)
+  dog_breeds.pop(2)
 end
 
 def using_shift (my_favorite_cities)
